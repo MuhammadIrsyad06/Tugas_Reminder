@@ -18,7 +18,9 @@ and open the template in the editor.
             <th>Nama </th>
             <th>Harga Satuan </th>
             <th>Jumlah </th>
-            <th>Total </th>
+            <th>Harga Awal</th>
+            <th>Potongan Harga</th>
+            <th>Total Setelah Diskon </th>
             <th>Diskon</th>
             <th>Pembayaran</th>
             <th>Kembalian </th>
@@ -28,6 +30,8 @@ and open the template in the editor.
             <td th:text="${name}"></td></br>
             <td th:text="${price}"></td></br>
             <td th:text="${quantity}"></td></br>
+            <td th:text="${priceTotal}"></td></br>
+            <td th:text="${discPrice}"></td></br>
             <td th:text="${TotalPrice}"></td></br>
             <td th:text="${disc}"></td></br>
              <td th:text="${money}"></td></br>
